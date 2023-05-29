@@ -1,4 +1,4 @@
-// Today's rates
+// Today's forex rates
 let usdRate = 10.97; // USD to GHS exchange rate
 let gbpRate = 13.53; // GBP to GHS exchange rate
 let eurRate = 11.75; // EUR to GHS exchange rate
