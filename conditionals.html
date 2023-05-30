@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Conditionals</title>
+  </head>
+  <body>
+    <script>
+      // Array
+      let colleagues = ["Bernard Gyamfi", "Ernest Appiah", "Owuraku Sintim"];
+
+      //Print out of each name in the array using a for loop
+      for (let i = 0; i < colleagues.length; i++) {
+        console.log(colleagues[i]);
+      }
+
+      let age = 21;
+      let country = "Ghana";
+
+      if (country === "Ghana" && age >= 18) {
+        console.log("You are an adult in Ghana.");
+      } else if (country === "Ghana" && age >= 13 && age < 18) {
+        console.log("You are a teenager in Ghana.");
+      } else if (country === "Ghana" && age >= 70) {
+        console.log("You are a senior citizen in Ghana.");
+      } else if (country === "Nigeria" && age >= 18) {
+        console.log("You are an adult in Nigeria.");
+      } else if (country === "Nigeria" && age >= 13 && age < 18) {
+        console.log("You are a teenager in Nigeria.");
+      } else if (country === "Nigeria" && age >= 70) {
+        console.log("You are a senior citizen in Nigeria.");
+      } else {
+        console.log("You are not a citizen of the specified countries.");
+      }
+    </script>
+  </body>
+</html>
